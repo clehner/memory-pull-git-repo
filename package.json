@@ -1,0 +1,29 @@
+{
+  "name": "memory-pull-git-repo",
+  "version": "0.1.0",
+  "description": "in-memory pull-git-repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/clehner/memory-pull-git-repo"
+  },
+  "keywords": [
+    "pull-git-repo"
+  ],
+  "author": "Charles Lehner (http://celehner.com/)",
+  "license": "Fair",
+  "bugs": {
+    "url": "https://github.com/clehner/memory-pull-git-repo/issues"
+  },
+  "dependencies": {
+    "multicb": "^1.2.1",
+    "pull-stream": "^3.1.0"
+  },
+  "devDependencies": {
+    "abstract-pull-git-repo": "^0.1.0",
+    "tape": "^4.4.0"
+  }
+}
