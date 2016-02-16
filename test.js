@@ -1,2 +1,5 @@
+var test = require('tape')
 var tests = require('abstract-pull-git-repo/tests')
-tests(require('tape'), require('.'))
+var Repo = require('.')
+
+tests.repo(test, new Repo)
