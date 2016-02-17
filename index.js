@@ -38,7 +38,8 @@ Repo.prototype.hasObject = function (hash, cb) {
 
 Repo.prototype.getObject = function (hash, cb) {
   var obj = this._objects[hash]
-  cb(null, obj && {
+  if (!obj) return cb(new Error('Object not present with key ' + hash))
+  cb(null, {
     type: obj.type,
     length: obj.length,
     read: pull.once(obj.data)

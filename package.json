@@ -1,6 +1,6 @@
 {
   "name": "memory-pull-git-repo",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "in-memory pull-git-repo",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "pull-stream": "^3.1.0"
   },
   "devDependencies": {
-    "abstract-pull-git-repo": "^0.2.0",
+    "abstract-pull-git-repo": "^0.3.0",
     "tape": "^4.4.0"
   }
 }
