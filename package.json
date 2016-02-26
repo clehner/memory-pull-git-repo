@@ -23,7 +23,7 @@
     "pull-stream": "^3.1.0"
   },
   "devDependencies": {
-    "abstract-pull-git-repo": "^0.3.0",
+    "abstract-pull-git-repo": "^0.5.0",
     "tape": "^4.4.0"
   }
 }

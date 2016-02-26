@@ -32,6 +32,10 @@ Repo.prototype.refs = function (prefix) {
   }
 }
 
+Repo.prototype.symrefs = function () {
+  return pull.empty()
+}
+
 Repo.prototype.hasObject = function (hash, cb) {
   cb(null, hash in this._objects)
 }
